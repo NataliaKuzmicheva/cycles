@@ -19,6 +19,7 @@ public class CalculateServiceTest {
 
         Assertions.assertEquals(expectedHoliday, actual);
     }
+
     @Test
     void holidayTwo() {
         CalculateService service = new CalculateService();
